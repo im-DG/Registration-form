@@ -1,0 +1,181 @@
+.section {
+    background-color: rgb(178, 158, 158);
+    /* border: 2px solid green; */
+    border-radius: 10px;
+    height: 1300px;
+    width: 800px;
+    margin: auto;
+    box-shadow: 8px 8px 10px 5px rgb(179, 177, 177);
+}
+
+/* ------------------------------------------- */
+/* for the top heading part  */
+.top-div {
+    height: 150px;
+    width: 100%;
+    border-radius: 8px;
+    /* background-color: rgb(212, 212, 174); */
+    display: flex;
+}
+
+.top-left-div {
+    height: 100%;
+    width: 20%;
+    border-radius: 8px 0px 0px 0px;
+    background-color: rgb(194, 189, 189);
+}
+
+img {
+    height: 80%;
+    width: 70%;
+    margin: 10px 20px;
+    border-radius: 8px;
+
+}
+
+/* ------------------------------------------- */
+/* top right start from here */
+.top-right-div {
+    height: 100%;
+    width: 80%;
+    border-radius: 0px 8px 0px 0px;
+    background-color: rgb(181, 189, 189);
+}
+
+.college-name {
+    font-size: 20px;
+    margin-left: 80px;
+}
+
+.college-address {
+    font-size: 16px;
+    margin-left: 230px;
+}
+
+.register {
+
+    font-size: 25px;
+    margin-left: 190px;
+    height: 30px;
+    width: 220px;
+    padding-left: 15px;
+    border-radius: 8px;
+    background-color: rgb(198, 185, 153);
+}
+
+.search {
+    margin-left: 400px;
+    border-radius: 6px;
+}
+
+.btn {
+    border-radius: 6px;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+/* ----------------------------------------- */
+/* body divis start from here  */
+.body-div {
+    padding-top: 30px;
+    height: 1300px;
+    max-width: 100%;
+    margin: 10px;
+
+    /* background-color: rgba(181, 19, 138, 0.267); */
+
+}
+
+.wrapper {
+    width: 130px;
+    height: 150px;
+    background: url("../image//profile.png");
+    background-size: 100% 100%;
+    position: absolute;
+    border: 2px solid rgb(94, 90, 90);
+    border-radius: 20%;
+    margin-left: 600px;
+    margin-top: 80px;
+}
+
+.my-file {
+    position: absolute;
+    bottom: 0;
+    outline: none;
+    color: transparent;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1px 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.margin-label {
+    margin-left: 10px;
+
+}
+
+.for-radio {
+    margin: 10px;
+    width: 100px;
+}
+
+input {
+    margin: 14px;
+}
+
+.for-input {
+    width: 350px;
+    border-radius: 5px;
+    margin-right: 353px;
+}
+
+/* ------------------------------------------------- */
+/* for the table */
+table {
+    margin-top: 12px;
+    height: 200px;
+}
+
+.school {
+    font-size: 9px;
+    margin: 0px;
+    padding: 5px;
+}
+
+.year-of-passing {
+    width: 10px;
+}
+
+td,
+th {
+    width: 10px;
+    border-collapse: collapse;
+}
+
+.submit-btn {
+    border-radius: 5px;
+    /* border: 2px solid red; */
+}
+
+hr {
+    width: 95%;
+    margin-top: 20px;
+}
+
+.office-para {
+    margin-left: 45%;
+}
+
+.signature-top {
+    position: absolute;
+    right: 28%;
+}
+
+.signature {
+    position: absolute;
+    margin-top: 30px;
+    right: 30%;
+}
