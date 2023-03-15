@@ -23,98 +23,105 @@
                 <button class="btn">Go</button>
             </div>
         </div>
-        <div class="body-div">
-            <div class="wrapper">
-                <input type="file" class="my-file">
+        <form action="">
+
+            <div class="body-div">
+                <div class="wrapper">
+                    <input type="file" class="my-file">
+                </div>
+                <label for="" class="margin-label">Course applied for :
+                    <input class="for-radio" type="radio" name="course" value="bba">BBA
+                    <input class="for-radio" type="radio" name="course" value="bca">BCA
+                    <input class="for-radio" type="radio" name="course" value="btech">B-Tech</label> <br>
+                <label for="" class="margin-label">Student name :
+                    <input class="for-input " type="text" name="users name " placeholder="Enter your name">
+                </label> <br>
+                <label for="" class="margin-label">Date of Birth :
+                    <input class="for-input " type="date" name="Date " placeholder="Enter your DOB">
+                </label> <br>
+                <label for="" class="margin-label">Father's name:
+                    <input class="for-input" type="text" name="father name " placeholder="Enter your Father name">
+                </label> <br>
+                <label for="" class="margin-label">Mother's name :
+                    <input class="for-input" type="text" name="mother name " placeholder="Enter your Mother name">
+                </label> <br>
+                <label for="" class="margin-label"></label>Address:
+                <input class="for-input" type="text" name="address " placeholder="Enter your Address">
+                </label> <br>
+                <label for="" class="margin-label"></label>Phone :
+                <input class="for-input" type="number" name="phone " placeholder="Enter your number">
+                </label> <br>
+                <label for="" class="margin-label"></label>Pin number:
+                <input class="for-input" type="number" name="pin" placeholder="Enter your pin">
+                </label> <br>
+                <label for="" class="margin-label"></label>Email:
+                <input class="for-input" type="email" name="email" placeholder="Enter your email">
+                </label> <br>
+                <label for="" class="margin-label"></label>Catagory :
+                <input type="checkbox" value="sc" name="catagory">SC
+                <input type="checkbox" value="gen" name="catagory">GEN
+                <input type="checkbox" value="obc" name="catagory">OBC
+                <input type="checkbox" value="others" name="catagory">OTHERS
+                </label> <br>
+                <label for="" class="margin-label"></label>Academic Qualifications: </label><br>
+                <table border="1">
+                    <tr>
+                        <th rowspan="2">Qualifications</th>
+                        <th rowspan="2" class="year-of-passing">Year of Passing</th>
+                        <th rowspan="2">Board/University</th>
+                        <th colspan="3">Aggregate Marks</th>
+                    </tr>
+                    <tr>
+                        <th>Obtained</th>
+                        <th>Maximum</th>
+                        <th>Percentage</th>
+                    </tr>
+                    <tr>
+                        <th>High School</th>
+                        <td><input type="number" name="school-year" class="school"></td>
+                        <td><input type="text" name="board" class="school"></td>
+                        <td><input type="number" name="board" class="school"></td>
+                        <td><input type="number" name="board" class="school"></td>
+                        <td><input type="number" name="board" class="school"></td>
+
+                    </tr>
+                    <tr>
+                        <th>Intermediate</th>
+
+                        <td><input type="number" name="+2-year" class="school"></td>
+                        <td><input type="text" name="+2-year" class="school"></td>
+                        <td><input type="number" name="+2-year" class="school"></td>
+                        <td><input type="number" name="+2-year" class="school"></td>
+                        <td><input type="number" name="+2-year" class="school"></td>
+                    </tr>
+                    <tr>
+                        <th>Graduation</th>
+
+                        <td><input type="number" name="Graduation-year" class="school"></td>
+                        <td><input type="text" name="Graduation-year" class="school"></td>
+                        <td><input type="number" name="Graduation-year" class="school"></td>
+                        <td><input type="number" name="Graduation-year" class="school"></td>
+                        <td><input type="number" name="Graduation-year" class="school"></td>
+                    </tr>
+
+                </table>
+                <div class="btns">
+
+                    <input type="submit" value="Submit" class="submit-btn">
+                    <input type="reset" class="submit-btn"> <br>
+                </div>
+                <hr>
+                <p class="office-para"><em>(for office use only)</em>
+                </p>
+                <p class="remark-para"> <strong>Remarks : </strong> The testinomials relating to the eligibility
+                    conditions
+                    of the course
+                    applied have been checked by me and the applicant fullfils/ does not fullfil eligibility conditions
+                </p>
+                <p class="signature-top"><strong> Executive director</strong> </p>
+                <p class="signature"> <em>Signature </em></p>
             </div>
-            <label for="" class="margin-label">Course applied for :
-                <input class="for-radio" type="radio" name="course" value="bba">BBA
-                <input class="for-radio" type="radio" name="course" value="bca">BCA
-                <input class="for-radio" type="radio" name="course" value="btech">B-Tech</label> <br>
-            <label for="" class="margin-label">Student name :
-                <input class="for-input " type="text" name="users name " placeholder="Enter your name">
-            </label> <br>
-            <label for="" class="margin-label">Date of Birth :
-                <input class="for-input " type="date" name="Date " placeholder="Enter your DOB">
-            </label> <br>
-            <label for="" class="margin-label">Father's name:
-                <input class="for-input" type="text" name="father name " placeholder="Enter your Father name">
-            </label> <br>
-            <label for="" class="margin-label">Mother's name :
-                <input class="for-input" type="text" name="mother name " placeholder="Enter your Mother name">
-            </label> <br>
-            <label for="" class="margin-label"></label>Address:
-            <input class="for-input" type="text" name="address " placeholder="Enter your Address">
-            </label> <br>
-            <label for="" class="margin-label"></label>Phone :
-            <input class="for-input" type="number" name="phone " placeholder="Enter your number">
-            </label> <br>
-            <label for="" class="margin-label"></label>Pin number:
-            <input class="for-input" type="number" name="pin" placeholder="Enter your pin">
-            </label> <br>
-            <label for="" class="margin-label"></label>Email:
-            <input class="for-input" type="email" name="email" placeholder="Enter your email">
-            </label> <br>
-            <label for="" class="margin-label"></label>Catagory :
-            <input type="checkbox" value="sc" name="catagory">SC
-            <input type="checkbox" value="gen" name="catagory">GEN
-            <input type="checkbox" value="obc" name="catagory">OBC
-            <input type="checkbox" value="others" name="catagory">OTHERS
-            </label> <br>
-            <label for="" class="margin-label"></label>Academic Qualifications: </label><br>
-            <table border="1">
-                <tr>
-                    <th rowspan="2">Qualifications</th>
-                    <th rowspan="2" class="year-of-passing">Year of Passing</th>
-                    <th rowspan="2">Board/University</th>
-                    <th colspan="3">Aggregate Marks</th>
-                </tr>
-                <tr>
-                    <th>Obtained</th>
-                    <th>Maximum</th>
-                    <th>Percentage</th>
-                </tr>
-                <tr>
-                    <th>High School</th>
-                    <td><input type="number" name="school-year" class="school"></td>
-                    <td><input type="text" name="board" class="school"></td>
-                    <td><input type="number" name="board" class="school"></td>
-                    <td><input type="number" name="board" class="school"></td>
-                    <td><input type="number" name="board" class="school"></td>
-
-                </tr>
-                <tr>
-                    <th>Intermediate</th>
-
-                    <td><input type="number" name="+2-year" class="school"></td>
-                    <td><input type="text" name="+2-year" class="school"></td>
-                    <td><input type="number" name="+2-year" class="school"></td>
-                    <td><input type="number" name="+2-year" class="school"></td>
-                    <td><input type="number" name="+2-year" class="school"></td>
-                </tr>
-                <tr>
-                    <th>Graduation</th>
-
-                    <td><input type="number" name="Graduation-year" class="school"></td>
-                    <td><input type="text" name="Graduation-year" class="school"></td>
-                    <td><input type="number" name="Graduation-year" class="school"></td>
-                    <td><input type="number" name="Graduation-year" class="school"></td>
-                    <td><input type="number" name="Graduation-year" class="school"></td>
-                </tr>
-
-            </table>
-            <input type="submit" value="Submit" class="submit-btn">
-            <input type="reset" value="Reset" class="submit-btn"> <br>
-            <hr>
-            <p class="office-para"><em>(for office use only)</em>
-            </p>
-            <p class="remark-para"> <strong>Remarks : </strong> The testinomials relating to the eligibility conditions
-                of the course
-                applied have been checked by me and the applicant fullfils/ does not fullfil eligibility conditions
-            </p>
-            <p class="signature-top"><strong> Executive director</strong> </p>
-            <p class="signature"> <em>Signature </em></p>
-        </div>
+        </form>
 
     </section>
 </body>
